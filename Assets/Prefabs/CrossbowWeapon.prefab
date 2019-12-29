@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7416785001956381471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 898904040704355654}
+  - component: {fileID: 5757394825740197071}
+  m_Layer: 0
+  m_Name: CrossbowWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &898904040704355654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7416785001956381471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 170.70544, y: 150.09576, z: 3.9464722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6916095839845257215}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5757394825740197071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7416785001956381471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61af04e9338c1fc42bb009b685b5c0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackOne: {fileID: 6311937477269785039, guid: 09446cad32406eb43adbd6b320653458,
+    type: 3}
+  attackTwo: {fileID: 7019008272184288811, guid: a038cc04380869246894249abf2cf979,
+    type: 3}
+  attackThree: {fileID: 0}
+  attackCooldown: 0.95
+  chargeCooldown: 0.95
+  specialCooldown: 0.95
+  bonusSpeed: 0
+  bonusRotation: 0
+  attackCount: 1
+  attackMax: 1
+  chargeCount: 5
+  chargeMax: 5
+  specialCount: 1
+  specialMax: 1
+  canChargeReload: 0
+  canSpecialReload: 0
+--- !u!1001 &8905260158484931651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 898904040704355654}
+    m_Modifications:
+    - target: {fileID: 2625385738881071004, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_Name
+      value: crossbow_vwep Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d9e4eb06e2820b41b55e34141f5f775, type: 3}
+--- !u!4 &6916095839845257215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2625385738881362876, guid: 2d9e4eb06e2820b41b55e34141f5f775,
+    type: 3}
+  m_PrefabInstance: {fileID: 8905260158484931651}
+  m_PrefabAsset: {fileID: 0}
